@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======== colors for the webpage ======== */
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--grey-900);
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+    overflow: hidden;
+}
+/* ======== Main box position + it's styling ======== */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ======== Content position inside of the container ======== */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container-styling {
+    background-color: var(--grey-800);
+    border-radius: 15px;
+    width: 400px;
+    max-width: 95%;
+    padding: 20px;
+    padding-top: 35px;
+}
+
+/* ======== Profile-info ======== */
+
+.avatar-profile img {
+    border-radius: 50%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Profile-name {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+.Profile-location {
+    color: var(--green);
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.Profile-description {
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1rem;
+}
+
+/* ======== Buttons styling ========= */
+.Profile-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: var(--grey-700);
+    color: var(--white);
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 100%;
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    font-weight: 200;
+    transition: 0.4s;
+}
+
+a:hover {
+    background-color: var(--green);
+    color: var(--black);         
+}
+
+/* ========== Footer ========== */
+.license {
+    font-size: 12px;
+    text-align: center;
+    color: var(--white);
+}
+
+.license a {
+    text-decoration: none;
+    color: var(--green);
+    transition: 0.4s;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+a:link {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+a:hover {
+    background-color: var(--green);
+    color: var(--black)
+}
+
+@media (prefers-color-scheme: light) {
+:root {
+  --green: hsl(244, 75%, 63%);
+  --white: hsl(0, 0%, 0%);
+  --black: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 95%);
+  --grey-800: hsl(0, 0%, 88%);
+  --grey-900: hsl(0, 0%, 96%);
+}
+}
+
+a:focus-visible {
+    outline-color: var(--green);
+}
