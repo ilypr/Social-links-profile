@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 /* ======== colors for the webpage ======== */
@@ -20,7 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
-    overflow: hidden;
 }
 /* ======== Main box position + it's styling ======== */
 main {
@@ -36,14 +35,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .main-container-styling {
     background-color: var(--grey-800);
     border-radius: 15px;
-    width: 400px;
     max-width: 95%;
+    width: 400px;
+    margin: auto;
     padding: 20px;
     padding-top: 35px;
 }
@@ -132,6 +131,8 @@ a:hover {
     color: var(--black)
 }
 
+
+/* ======= Webpage theme switch based on the device theme ======= */
 @media (prefers-color-scheme: light) {
 :root {
   --green: hsl(244, 75%, 63%);
