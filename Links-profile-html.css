@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    outline: 2px solid red;
 }
 
 /* ======== colors for the webpage ======== */
@@ -27,7 +28,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 /* ======== Content position inside of the container ======== */
@@ -41,9 +41,8 @@ main {
     background-color: var(--grey-800);
     border-radius: 15px;
     max-width: 95%;
-    width: 400px;
-    margin: auto;
-    padding: 20px;
+    width: 380px;
+    padding: 10px;
     padding-top: 35px;
 }
 
