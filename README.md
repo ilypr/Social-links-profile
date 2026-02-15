@@ -22,9 +22,9 @@ Users should be able to:
 
 ### Screenshot
 
-<div style="text-align:center">
-  <img src="/Social-links-profile/assets/PreviewReadme/Pc-version.png" width="500" height="300"/>
-  <img src="/Social-links-profile/assets/PreviewReadme/Mobile-version.png" width="500" height="300"/>
+<div style="text-align:center;">
+  <img src="assets/PreviewReadme/Pc-version.png" width="800"/>
+  <img src="assets/PreviewReadme/Mobile-version.png" width="260"/>
 </div>
 
 ### Links
