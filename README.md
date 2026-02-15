@@ -23,8 +23,8 @@ Users should be able to:
 ### Screenshot
 
 <div style="text-align:center;">
-  <img src="assets/PreviewReadme/Pc-version.png" width="800"/>
-  <img src="assets/PreviewReadme/Mobile-version.png" width="260"/>
+  <img src="assets/PreviewReadme/Pc-version.png" alt="Pc-version.png" width="800"/>
+  <img src="assets/PreviewReadme/Mobile-version.png" alt="Pc-version.png" width="260"/>
 </div>
 
 ### Links
