@@ -9,11 +9,7 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -22,23 +18,19 @@
 Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
+- Ensure that visitors can navigate the links only using their keyboard
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<div style="text-align:center">
+  <img src="/Social-links-profile/assets/PreviewReadme/Pc-version.png" width="500" height="300"/>
+  <img src="/Social-links-profile/assets/PreviewReadme/Mobile-version.png" width="500" height="300"/>
+</div>
 
 ### Links
 
 - [github-code](https://github.com/ilypr/Social-links-profilem)
-- [Live server](https://profile-with-social-links.netlify.app/)
+- [Live server](https://ilypr.github.io/Social-links-profile/)
 
 ## My process
 
@@ -47,17 +39,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Trougought this project I've learned how to use :root property to optimize the process of changing colors of a certain ellements as well as the use of @media tag to change the theme of webpage based on the user's device main theme colorway.
+Throughout this project I learned how to use :root pseudo-class to optimize the process of changing colors of a certain elements as well as the use of the @media tag to change the theme of a webpage based on the user's device's main theme colorway.
 
 ```html
 <h1>:root usage for the colors</h1>
@@ -86,7 +72,7 @@ Trougought this project I've learned how to use :root property to optimize the p
 }
 ```
 
-Also, in this project I've depeened my knoweledge on :focus-fisible property, as well as to use :root colors to chanve the looks of links and button's hover effect using the var value.
+Also, in this project I've deepened my knowledge of the :focus-visible property, as well as how to use :root colors to change the looks of links and button hover effects using the var value.
 
 ```css
 a:hover {
@@ -121,23 +107,6 @@ a:hover {
 }
 ```
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-### AI Collaboration
-
-Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
-
-- What tools did you use (e.g., ChatGPT, Claude, GitHub Copilot)?
-- How did you use them (e.g., debugging, generating boilerplate, brainstorming solutions)?
-- What worked well? What didn't?
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ilypr](https://www.frontendmentor.io/profile/ilypr)
